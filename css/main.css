@@ -18,10 +18,11 @@ div.jumbotron {
 	padding: 50px 200px 0px;
 	overflow: hidden;
 }
-/*
+
 h1 {
-	font-family: 'Yeseva One', cursive;
-}*/
+/*	font-family: 'Yeseva One', cursive;*/
+font-size:  4em;
+}
 
 /* Better buttons */
 
