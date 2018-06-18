@@ -14,14 +14,20 @@ body {
 	margin-bottom: 50px;
 }
 
-div.jumbotron {
-	padding: 50px 200px 0px;
-	overflow: hidden;
+@media only (min-width: 992px) and (max-width: 1199.98px) {
+	div.jumbotron {
+		padding: 50px 200px 0px;
+		overflow: hidden;
+	}
 }
 
 h1 {
 /*	font-family: 'Yeseva One', cursive;*/
 	font-size:  4em;
+}
+
+span {
+	color: white;
 }
 
 /* Better buttons */
@@ -53,4 +59,8 @@ h1 {
 .btn-primary:active, .btn-primary.active {
     background: #025E00;
     box-shadow: none;
+}
+
+.icon-background {
+	color: #54AFCC;
 }
