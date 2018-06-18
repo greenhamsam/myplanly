@@ -99,9 +99,11 @@
       </p>
       <div id="untorch">
         <form>
-          <input type="text" class="form-control" placeholder="Email" data-untorch-element="email" />
-          <button type="button" class="btn-success" data-untorch-element="submit" onclick="ga('send', 'event', 'untorch', 'button', 'signup')">Sign up</button>
-          <div class="alert-message" data-untorch-element="alert"></div>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Enter your email" data-untorch-element="email" />
+            <button type="button" class="btn-success" data-untorch-element="submit" onclick="ga('send', 'event', 'untorch', 'button', 'signup')">Sign up</button>
+            <div class="alert-message" data-untorch-element="alert"></div>
+          </div>
         </form>
       </div>
     </div>
