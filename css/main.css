@@ -1,26 +1,27 @@
+body {
+/*  padding-top: 50px;*/
+  padding-bottom: 20px;
+}
 
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
 #hero {
 	margin-right: 80px;
 	margin-bottom: 50px;
 	width: 250px;
+	float: left;
 }
 
 #untorch {
-	float: left;
-	margin-bottom: 50px
+	margin-bottom: 50px;
 }
 
 div.jumbotron {
 	padding: 50px 200px 0px;
+	overflow: hidden;
 }
-
+/*
 h1 {
 	font-family: 'Yeseva One', cursive;
-}
+}*/
 
 /* Better buttons */
 
