@@ -10,8 +10,14 @@ body {
 	float: left;
 }
 
+#mobhead {
+	display: none;
+}
+
 #untorch {
 	margin-bottom: 50px;
+	overflow: hidden;
+	max-width: 250px;
 }
 
 h1 {
@@ -27,12 +33,11 @@ span {
 
 .btn {
     padding: 14px 24px;
-    bborder: 0 none;
     font-weight: 700;
-	border-radius:0;
-/*	border-color: #86BF85;*/
-/*	background-color: #86BF85;*/
-	margin: 10px;
+	background-color: #27CC68;
+	margin-top: 10px;
+	border: 0;
+	border-radius: 0;
 }
 
 
@@ -54,10 +59,55 @@ span {
     box-shadow: none;
 }
 
-@media only (min-width: 992px) and (max-width: 1199.98px) {
+.mobform {
+	display: none;
+}
+
+/*@media only (min-width: 992px) and (max-width: 1199.98px) {
 	div.jumbotron {
 		padding: 50px 200px 0px;
 		overflow: hidden;
 	}
-}
+}*/
 
+@media only screen and (max-width: 1125px) {
+	div.jumbotron {
+		text-align: center;
+	}
+	#hero {
+		margin: 20px 0;
+		float: none;
+		width: 200px;
+	}
+	#untorch {
+		display: hidden;
+	}
+	#mobhead {
+		display: inline;
+	}
+	#nomob {
+		display: none;
+	}
+	h1 {
+		font-size: 2.2em;
+	}
+	h2 {
+		font-size: 1.5em;
+	}
+	form.form-inline {
+		padding: 30px;
+		display: block;
+	}
+	#untorch {
+		display: none;
+	}
+	#untorchmob {
+		display: inline;
+		text-align: center;
+		margin: 15%;
+		width: 100%;	
+	}
+	.container hr {
+		margin-top: 50px;
+	}
+}
