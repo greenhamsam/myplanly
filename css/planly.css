@@ -45,6 +45,10 @@ span {
     outline: 0 none;
 }
 
+.btn:hover {
+	background-color: #478E46;
+}
+
 .btn-primary {background
     background-color: #86BF85;
     color: #ffffff;
